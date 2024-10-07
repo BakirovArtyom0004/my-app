@@ -1,0 +1,32 @@
+.control-panel {
+    display: flex;
+    margin: 10px auto;
+    justify-content: center;
+  }
+
+.btn-control {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: none;
+    -webkit-box-shadow: 0px 0px 0px 1px rgba(10, 29, 75, 1);
+    -moz-box-shadow: 0px 0px 0px 1px rgba(10, 29, 75, 1);
+    box-shadow: 0px 0px 0px 1px rgba(10, 29, 75, 1);
+    margin:0 10px;
+    background-color: aqua;
+    color: black;
+    transition: all 0.3s;
+}
+
+
+.btn-control:hover,
+.btn-control:focus {
+    background-color: aqua;
+    box-shadow: black;
+}
+.btn-control:disabled {
+    background-color: lightgray;
+    box-shadow: 0px 0px 0px 1px grey;
+    color: grey;
+
+}

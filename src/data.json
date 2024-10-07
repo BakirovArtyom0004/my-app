@@ -1,0 +1,52 @@
+[
+    {
+        "id": 1,
+        "front": "apple",
+        "back": "яблоко"
+    },
+    {
+        "id": 2,
+        "front": "orange",
+        "back": "апельсин"
+    },
+    {
+        "id": 3,
+        "front": "coconut",
+        "back": "кокос"
+    },
+    {
+        "id": 4,
+        "front": "gosha",
+        "back": "гоша"
+    },
+    {
+        "id": 5,
+        "front": "collect",
+        "back": "собрал"
+    },
+    {
+        "id": 6,
+        "front": "for",
+        "back": "для"
+    },
+    {
+        "id": 7,
+        "front": "us",
+        "back": "нас"
+    },
+    {
+        "id": 8,
+        "front": "tomato",
+        "back": "помидор"
+    },
+    {
+        "id": 9,
+        "front": "ball",
+        "back": "мяч"
+    },
+    {
+        "id": 10,
+        "front": "doll",
+        "back": "кукла"
+    }
+]
