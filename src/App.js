@@ -1,13 +1,20 @@
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import {PageSelectSet} from "./pages/pageSelectSet/PageSelectSet";
+import {PageViewSet} from "./pages/pageViewSet/PageViewSet";
+import {PageCreateSet} from "./pages/pageCreateSet/PageCreateSet";
 import './App.css';
-import { Header } from "./components/header/Header";
-import { Set } from './components/set/Set';
+
 
 function App() {
   return (
-    <div className="App">
-      <Header />
-      <Set />     
-    </div>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<PageSelectSet/>} />
+        <Route path="/set/:id" element={<PageViewSet/>} />
+        <Route path="/admin" element={<PageCreateSet/>} />
+        <Route path="*" element={<PageSelectSet/>} />
+      </Routes>
+    </BrowserRouter>
   );
 }
 

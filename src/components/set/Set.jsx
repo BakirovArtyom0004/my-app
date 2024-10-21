@@ -19,8 +19,6 @@ export function Set(){
         
     }
 
-
-
     return(
         <div>
             <h2>Название набора</h2>

@@ -1,5 +1,6 @@
 import { useState } from "react";
-import './Card.css'
+import './Card.css';
+
 export function Card({front, back}) {
     const [checkCard, setCheckCard] = useState(false);
     

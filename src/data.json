@@ -2,51 +2,91 @@
     {
         "id": 1,
         "front": "apple",
-        "back": "яблоко"
+        "back": "яблоко",
+        "setName":"English"
     },
     {
         "id": 2,
         "front": "orange",
-        "back": "апельсин"
+        "back": "апельсин",
+        "setName":"English"
     },
     {
         "id": 3,
-        "front": "coconut",
-        "back": "кокос"
+        "front": "driver",
+        "back": "водитель",
+        "setName":"English"
     },
     {
         "id": 4,
-        "front": "gosha",
-        "back": "гоша"
+        "front": "designer",
+        "back": "дизайнер",
+        "setName":"English"
     },
     {
         "id": 5,
-        "front": "collect",
-        "back": "собрал"
+        "front": "bath",
+        "back": "ванная",
+        "setName":"English"
     },
     {
         "id": 6,
-        "front": "for",
-        "back": "для"
+        "front": "living room",
+        "back": "зал",
+        "setName":"English"
     },
     {
         "id": 7,
-        "front": "us",
-        "back": "нас"
+        "front": "bed",
+        "back": "спальня",
+        "setName":"English"
     },
     {
         "id": 8,
         "front": "tomato",
-        "back": "помидор"
+        "back": "помидор",
+        "setName":"English"
     },
     {
         "id": 9,
         "front": "ball",
-        "back": "мяч"
+        "back": "мяч",
+        "setName":"English"
     },
     {
         "id": 10,
         "front": "doll",
-        "back": "кукла"
+        "back": "кукла",
+        "setName":"English"
+    },
+    {
+        "id": 11,
+        "front": "p",
+        "back": "абзац",
+        "setName":"tags"
+    },
+    {
+        "id": 12,
+        "front": "a",
+        "back": "ссылка",
+        "setName":"tags"
+    },
+    {
+        "id": 13,
+        "front": "img",
+        "back": "изображение",
+        "setName":"tags"
+    },
+    {
+        "id": 14,
+        "front": "border",
+        "back": "рамка",
+        "setName":"css"
+    }, 
+    {
+        "id": 15,
+        "front": "background",
+        "back": "фон",
+        "setName":"css"
     }
 ]
