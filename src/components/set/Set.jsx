@@ -1,9 +1,16 @@
 import { useState } from "react";
 import {Card} from "../card/Card";
+import { useLocation } from "react-router-dom";
 import './Set.css';
 
 export function Set(){
-    const cards = require('../../data'); //подключить данные с data.json
+    const location = useLocation();
+    const {set} = location.state;
+
+    const cards = require('../../data').filter((item)=>{
+        return item.setName === set
+    }); 
+    
     const [step, setStep] =useState(0);
 
     const handleNext = () => {

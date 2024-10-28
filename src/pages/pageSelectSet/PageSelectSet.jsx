@@ -1,5 +1,6 @@
 import { BtnSet } from "../../components/btnSet/BtnSet";
 import {Header} from "../../components/header/Header";
+import "./PageSelectSet.css"
 export function PageSelectSet(){
     const cards = require("../../data.json");
     const sets = cards.reduce(
@@ -16,7 +17,7 @@ export function PageSelectSet(){
             sets:[]
         }
     ).sets.map((item, index)=>(
-        <BtnSet key={index} name={item} />
+        <BtnSet key={index} name={item} id={index}/>
     ));
 
     return (
