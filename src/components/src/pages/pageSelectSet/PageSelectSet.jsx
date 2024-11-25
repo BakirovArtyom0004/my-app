@@ -1,31 +1,33 @@
 import { BtnSet } from "../../components/btnSet/BtnSet";
 import {Header} from "../../components/header/Header";
+import "./PageSelectSet.css"
+
 export function PageSelectSet(){
     const cards = require("../../data.json");
     const sets = cards.reduce(
         (acc, item)=>
         {
-            if(acc.map[item.setName])
+            if(acc.obj[item.setName])
                 return acc;
-            acc.map[item.setName] = true;
+            acc.obj[item.setName] = true;
             acc.sets.push(item.setName);
             return acc;
         },
         {
-            map:{},
+            obj:{},
             sets:[]
         }
     ).sets.map((item, index)=>(
-        <BtnSet key={index} name={item} />
+        <BtnSet key={index} name={item} id={index} />
     ));
 
     return (
         <div>
             <Header />
             <h2>Наборы (сеты) карточек</h2>
-            <u1 className="set-list">
+            <ul className="set-list">
                 {sets}
-            </u1>
+            </ul>
         </div>
     )
 }
